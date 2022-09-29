@@ -10,10 +10,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'my App whatsapp clone',
-      theme: ThemeData(
-        primarySwatch: Colors.red,
-      ),
+      title: 'hi This sajjad  whatsapp clone',
+      theme: ThemeData(brightness: Brightness.light),
+      darkTheme: ThemeData(brightness: Brightness.dark),
+      themeMode: ThemeMode.light,
       home: const HomeScreen(),
     );
   }
